@@ -1,0 +1,6 @@
+- Expect filePath, serviceName, templateName
+- validate
+- Read filefpath
+- call core.AddConfig
+- write in filePath
+- exit
