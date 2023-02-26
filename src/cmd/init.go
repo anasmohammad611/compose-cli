@@ -4,13 +4,12 @@ Copyright © 2023 Shuvojit Sarkar <shuvojit@healtih.in>
 package cmd
 
 import (
-	"log"
-
+	"github.com/anasmohammad611/compose-cli/common/printer"
 	"github.com/spf13/cobra"
 )
 
 func initRun(cmd *cobra.Command, args []string) {
-	log.Println("init called")
+	printer.Info("init called")
 }
 
 // initCmd represents the init command
